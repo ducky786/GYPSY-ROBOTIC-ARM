@@ -25,6 +25,8 @@ For a robotic arm to work you need to know how to move the end effector to the d
 
 I started a bit Of the CAD too! This is only my third time CADing so am still learning some stuff. Today I worked on the base of GYPSY and finished a bit of the first axis. I had to think a lot on how I might want to approach this part of the axis. I Definity did NOT want to use Barings for this project as for one it would drastically increase the price of the arm due to such large Barings and also because of the past troubles I've had with them. In my last project when I used Barings, I had unfortunate results with them because of the tolerances. I never seemed to get the fit right. So, I ditched the idea of the Barings and settled on simply having two pieces loosely fit around a notch so it could spin. Sure, it might not be the smoothest, but it will spin pretty good, hopefully.
 
-![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU0MjIsInB1ciI6ImJsb2JfaWQifX0=--308c6cff49106674d6651c189ef0d4e744c13e4f/image.png)
+<img width="698" height="765" alt="image" src="https://github.com/user-attachments/assets/9d784cf5-d2dd-41c7-9bd0-8fd6eba2bc9e" />
 
-![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU0MjMsInB1ciI6ImJsb2JfaWQifX0=--0517a6266bc65233c380db862df59d20386620af/image.png)
+
+<img width="834" height="521" alt="image" src="https://github.com/user-attachments/assets/d7f71a11-9e43-40dc-a1e3-0e20d9fcc2e9" />
+
