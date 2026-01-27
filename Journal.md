@@ -58,7 +58,7 @@ The while wrist pivot is powered by the servo inside the forearm. Made it this w
 
 Credit: https://youtu.be/AIsVlgopqJc?si=-omXVJZqu1W9qJ8N
 
-![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTE0MTksInB1ciI6ImJsb2JfaWQifX0=--a2af387036613d064f80346f728f68e53dffb8c2/image.png)
+<img width="293" height="595" alt="image" src="https://github.com/user-attachments/assets/39a7b347-1993-4434-b7c8-38d4ad18736e" />
 The yellow Band is the Rubber band.
 
 ### 1/26/26
@@ -67,7 +67,8 @@ The CAD is finally done! I completed the cad by adding some last details like na
 
 Today while cleaning out some of my stuff, I came across a neopixel strip from a Pico kit that I bought a while back. I instantly though that I should add this to the front, so I created a groove in the base for it be stuck on! I could imagine the different sick patters I could display with this! I can tell it's going to come out awesome!!
 
-![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNzQsInB1ciI6ImJsb2JfaWQifX0=--37dde557b684c0d71a33a39b880b7328a722a798/image.png)
+<img width="570" height="746" alt="image" src="https://github.com/user-attachments/assets/be4c3743-9115-43a3-b2e6-dee2de224557" />
+
 
 
 
@@ -81,7 +82,8 @@ The grip on the wrist is fine but I think I need to add some kind of rubber or f
 
 After that I moved onto writing some test code for the neopixel and came up with simple patterns.
 
-![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNzYsInB1ciI6ImJsb2JfaWQifX0=--c5c0a374a8e1286aada5f32d11c18e171bcd9ae8/image.png)
+<img width="540" height="743" alt="image" src="https://github.com/user-attachments/assets/a5581c9c-b390-4edd-8b87-f15d71dadf15" />
+
 
 video of testing the light pattern.
 [IMG_3075](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNzcsInB1ciI6ImJsb2JfaWQifX0=--d5ad71ac91c631e579ebd244bddf80ecedc21ad2/IMG_3075.MOV)
