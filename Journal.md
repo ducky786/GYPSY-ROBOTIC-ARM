@@ -59,6 +59,7 @@ The while wrist pivot is powered by the servo inside the forearm. Made it this w
 Credit: https://youtu.be/AIsVlgopqJc?si=-omXVJZqu1W9qJ8N
 
 <img width="293" height="595" alt="image" src="https://github.com/user-attachments/assets/39a7b347-1993-4434-b7c8-38d4ad18736e" />
+
 The yellow Band is the Rubber band.
 
 ### 1/26/26
@@ -74,6 +75,8 @@ Today while cleaning out some of my stuff, I came across a neopixel strip from a
 
 ### FABRICATION
 For my fabrication I wont be able to do too much as I do not have majority of the parts. I can however fabricate the wrist! With the help of my robotics team, they kindly allowed me to use the 3d printer for this project! So, I printed the parts out and put it together and wrote a simple loop to test it out! The wrist came out so good. The tolerance was perfect and everything fit together seamlessly. 
+
+<img width="281" height="443" alt="image" src="https://github.com/user-attachments/assets/e9f487dc-733f-4ab0-aaba-277e07b8af8c" />
 
 Here is the video clip of it working:
 [IMG_3051](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNzMsInB1ciI6ImJsb2JfaWQifX0=--30f1914dca1a4efa6c7e6b12479e9b36fba33f8f/IMG_3051.MOV)
