@@ -25,7 +25,7 @@ const int Arm = 3; // change
 const int Waist = 4; // change
 
 
-// Robot Dementions (dementions in MM) (including joint length)
+// Robot Arm Lengths (dementions in MM) (including joint length)
 const float FORARM_LENGTH = 81.900;
 const float ARM_LENGTH = 81.997;
 const float WRIST_LENGTH = 52.703;
@@ -70,14 +70,10 @@ void setup() {
     setServoAngle(Arm,a2b(a1));
     setServoAngle(Forearm,a2b(a2));
     setServoAngle(Wrist,a2b(a3));
-
-    
     Serial.println("Done");
-
+      
   }else{
-
     Serial.println("nu uh");
-
   }
 
 
@@ -85,11 +81,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-
-
-
-
-
 }
 
 
@@ -115,7 +106,7 @@ float a2b(float a) {
 
 // ============== Set servo angle method ==============
 void setServoAngle(uint8_t channel, int angle){
-
+  
   int pulse = map(angle, 0, 180, SERVO_MIN, SERVO_MAX);
   PWM.setPWM(channel, 0, pulse);
 
