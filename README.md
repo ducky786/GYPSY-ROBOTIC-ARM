@@ -11,3 +11,8 @@ To use the Robotic arm, first plug in the power to the ESP32 and the servo motor
 
 ### Why I decided to make GYPSY?
 I decided to make gypsy because of my love for robotics! I have just recently gotten into this wonderful field of engineering and wanted to expand my knowledge. Through Hack Club's grant programs, I have created RC cars and macropads, where I learned a lot! But now I wanna learn more advanced concepts such as Inverse Kinematics, CAD designing. I built Gypsy as a project where I could learn these advanced concepts and apply them to the arm. I later even hope to add object detection using OpenCV.
+
+
+### Wiring Diagram:
+<img width="921" height="1199" alt="image" src="https://github.com/user-attachments/assets/bbce8a0e-be55-419a-b3b6-e2cd49c40933" />
+
