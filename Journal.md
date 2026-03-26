@@ -92,7 +92,24 @@ video of testing the light pattern.
 [IMG_3075](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNzcsInB1ciI6ImJsb2JfaWQifX0=--d5ad71ac91c631e579ebd244bddf80ecedc21ad2/IMG_3075.MOV)
 
 
+### MAJOR CHANGES 
+Since my last post there has been a major change! Originally the brains of the robot were supposed to be a raspberry pi. But after some consideration I think that would be something the grant would not be able to provide and also that I've gone sick of Micro Python, lol! So, I scrapped the idea of a RPI for the MK 1 version of GYPSY and settled on an ESP-32. This microcontroller is honestly a pretty sweet controller! It has blue Tooth and Wi-Fi connectivity which would be great in connecting my Xbox controller! And plus, the Arduino IDE is so much better than the dead Thonny IDE. I am also pretty familiar with JAVA so the switch to C++ wasn't too bad! So, after that decision I worked on re designing the electronic compartment of GYPSY to house the ESP-32 along with the PCA965 servo driver.
 
+<img width="631" height="749" alt="image" src="https://github.com/user-attachments/assets/a9b4e7b2-b592-4306-8aa3-1b6510af703c" />
+
+
+### GYPSY FIRMARE!
+
+After tinkering around with Aduino C++ and stuff I started working on the gypsy Firmware. I will be using I2C communication to control the servos. So I added the required libraries for that and added methods to control the servos. I later spent looking for an IK library that could calculate the joint angles to get to the required x, y, z coordinates. I came across this very awesome IK library that was really simple to use!
+
+IK Library: https://github.com/cgxeiji/CGx-InverseK/tree/master 
+
+This library creates a link of joints with constraints to which then gets passed in to a solver method along with the x, y, z coordinates. If the location is solvable it updates the diffrent servos to their angle to reach that position!
+
+<img width="438" height="639" alt="image" src="https://github.com/user-attachments/assets/e8aff818-c0d1-4965-89e5-4fd02be7d4a8" />
+
+### FINALIZATION 
+After all that the theoretical code and CAD are now finally complete. I final BOM comes around $68 which doesnt seem too bad. Now All I need to do I work on submitting everything for review!
 
 
 
