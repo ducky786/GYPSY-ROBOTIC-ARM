@@ -11,11 +11,41 @@ To use the Robotic arm, first plug in the power to the ESP32 and the servo motor
 ### Why I decided to make GYPSY?
 I decided to make gypsy because of my love for robotics! I have just recently gotten into this wonderful field of engineering and wanted to expand my knowledge. Through Hack Club's grant programs, I have created RC cars and macropads, where I learned a lot! But now I wanna learn more advanced concepts such as Inverse Kinematics, CAD designing. I built Gypsy as a project where I could learn these advanced concepts and apply them to the arm. I later even hope to add object detection using OpenCV.
 
+<img width="2021" height="1271" alt="image" src="https://github.com/user-attachments/assets/18670de2-fc2a-4209-aad3-a7deef4e5ead" />
+
+<img width="684" height="717" alt="image" src="https://github.com/user-attachments/assets/4816b0ee-1883-4972-afb8-832a0f5dca20" />
+
+
+
+
 ### Robotic Arm:
 <img width="570" height="746" alt="image" src="https://github.com/user-attachments/assets/be4c3743-9115-43a3-b2e6-dee2de224557" />
 
 ### Wiring Diagram:
 <img width="921" height="1199" alt="image" src="https://github.com/user-attachments/assets/bbce8a0e-be55-419a-b3b6-e2cd49c40933" />
+
+### Fabrication:
+For testing, I fabricated the gripper, as it is the only part that I could put together and test with the things I have right now! 
+I got this 3D printed with the help of my FRC team! They kindly allowed me to borrow their prusa mini to print out the parts.
+
+Everything here fits together seamlessly. The only thing I might need to add is a piece of foam or something to allow the gripper to gain more grip.
+
+<img width="274" height="437" alt="image" src="https://github.com/user-attachments/assets/cd73edea-e5ae-4eb3-a8d1-005958d89ea3" />
+
+[video of it working](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNzMsInB1ciI6ImJsb2JfaWQifX0=--30f1914dca1a4efa6c7e6b12479e9b36fba33f8f/IMG_3051.MOV)
+
+
+### Programing
+
+I was originally worried about how I might get the Inverse kinamatics to work but I acctually came across this very easy to use IK library that does all the hard mathmatical calculations!
+I first create a link of all the joints that my arm has. This includes the base, arm, foarm, and the writst. From then use these joints to in a method called solveIK which takes the the x, y and z coordinates and returns the degrees for the servo. very simple!
+
+<img width="436" height="633" alt="image" src="https://github.com/user-attachments/assets/cfbab7f4-bf7a-41f2-8ff1-a9c80dc088cb" />
+
+[IK Library:](https://github.com/cgxeiji/CGx-InverseK/tree/master)
+
+
+
 
 ### BOM:
 
@@ -26,5 +56,6 @@ I decided to make gypsy because of my love for robotics! I have just recently go
 | Servo Driver        | 1         | 5.99   | [Amazon.com: Dorhea PCA9685 16 Channel 12 Bit PWM Servo Driver Board IIC Interface PCA9685 Module Controller Compatible with Raspberry Pi : Toys & Games](https://www.amazon.com/Torque-Waterproof-Steering-Digital-Control/dp/B073F92G2S/ref=sr_1_2_sspa?crid=3U3YJ7HPYY29U&dib=eyJ2IjoiMSJ9.7sVFEvnBUrnueRc48zdTKw1fwS1MWjSB1yEz7okLU719GpX10o5jLisWu7WJtMq8SXsRkhUVAhBcnzzXYJ15rbqA2JdZ0-FSwo4U1_ekGotDJh498r8Acec_rYGIEbj4r--cLWGgrMz5rJr00495QdEgbH8NdhgCBY-em2sVUon_kwiWDFvy4-CotOQbW__wwQzm_Pm7DWyKEt3zvFFgNQffGRjqgbgYFwBdNVXEOlVSWudyOZ2KtOlLA-KCJVQdfuQioaI8VqKltuWfn37gw6dp3ijArF02h-Pf8OWUIx0.WbNqpCjv8UiPdRwdzAr4OQIZU5yYSRFOGT2a38LtcNs&dib_tag=se&keywords=servos%2B20kg&qid=1769629960&sprefix=servos%2B20kg%2Caps%2C136&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ESP 32              | 1         | 9.99   | [Amazon.com: HiLetgo ESP-WROOM-32 ESP32 ESP-32S Development Board 2.4GHz Dual-Mode WiFi + Bluetooth Dual Cores Microcontroller Processor Integrated with Antenna RF AMP Filter AP STA for Arduino IDE : Electronics  ](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z/ref=sr_1_5?crid=2XWA121DIPUCX&dib=eyJ2IjoiMSJ9.rFe7MGuJ3LEr6oQ55fKuguIhec45ote1e04V1dRL714K8fUsvXoxUIg6P9X_iIZPlFOB3oho29mkl9GelYvs3aLRaCeSk3sjWIgF1eSVy5znCkAiyf7H78n-lyyfs4qmSI7hEVvcnFjaW3vEUQJeCInd3AbtCbXL8qrPfna_5BpfjGwMrq_ZehkHvq4SiqEp4qRaMUBA7fpRPEL8W26LX_RgMljpOHIw5a54eX56maY.Peg3MvPE2W4Z1yUue-IC5ZO0-AA95CqZfFjLekAYrrA&dib_tag=se&keywords=esp%2B32%2B32s&qid=1771291918&sprefix=esp%2B32%2B32s%2B%2Caps%2C195&sr=8-5&th=1)                                                                                                                                                                                                                                                                                                                                                   |
 | ESP Break out Board | 1         | 6.99   | [Amazon.com: Alinan 2pcs ESP32 Breakout Board GPIO 1 into 2 Compatible with 38PIN Narrow Version ESP-WROOM-32 ESP32 Microcontroller Development Board : Electronics ](https://www.amazon.com/Alinan-Compatible-ESP-WROOM-32-Microcontroller-Development/dp/B0B1HN7ZPC/ref=sr_1_5?crid=TCBA0A0FCEQQ&dib=eyJ2IjoiMSJ9.4LoZ_2YlrwgT9NQ--Yx5Ji-gQLsNOum7FukFDPSgM3DPZ31p0ro4xM1M6Vriyu0A_qDQTOSA5NNeLUBomx4iMA5-39yCgWb4gAL2v5stsdccNVesRHvqIdK7lbmvIjGAPcBpV1yShCgXb2IPRSIFroOQM_uZSnKiy2huZH0yRjXXsq5VOhNu27_qPOaC_vEPPLK_e59WAj73-Vl1I1-dDBf3Uc5KRR9ded7Jy2NQYAU.xGNZHSp36s31rpnughmGz4IU_CDDwBEFiVOCW4SfZ7A&dib_tag=se&keywords=esp+32+32s+breakout+board&qid=1771290195&sprefix=esp+32+32s+breakout+board%2Caps%2C140&sr=8-5)                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                     |           |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Total               |           | $67.94 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|3D printed parts    |         --|     $10| ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|Shipping   |         --|     $10| ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Total               |           | $87.94 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
